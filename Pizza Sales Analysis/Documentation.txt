@@ -1,0 +1,32 @@
+Project Name: Pizza Sales Analysis
+
+Problem Statement:
+1. we need to analyze key indicators for Pizza sales data to gain insights into business performance.
+Specifically we want to create following metrics:
+1. Total Revenue
+2. Average order value = Total Revenue / Total number of orders.
+3. Total Pizzas sold
+4. Total Orders
+5. Average Pizzas per Order = Total Pizza sold / Total orders
+
+
+Charts requirement:
+1. Daliy trend for Total Orders
+2. Monthly trend for Total Orders
+3. Percentage of sales bu pizza category
+4. Percentage of sales by pizza size
+5. Total Pizza sold by pizza category
+6. Top 5 Best sellers by Revenue, Total Quantity and Total Orders
+7. Bottom 5 Best sellers by Revenue, Total Quantity and Total Orders
+
+Steps:
+
+1. we got data in the form of csv. 
+2. creating a database and importing csv data in MS SQL server management studio
+3. Validated data using SQL queries to get the answer for the KPI asked.
+4. start with visualization using powerbi
+5. Imported data from SQl server and performed data cleaning and processing using power query editior in power bi.
+6. Creted measures in Power bi using DAX expression.
+7. Cross validated kpi measures with values we got while running sql quries.
+8. Done with the visualation part with powerbi.
+9. This is how the project on bussiness anaalytics of a pizza company sales report comes to end. 
