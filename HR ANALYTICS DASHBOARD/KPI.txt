@@ -1,0 +1,58 @@
+Columns:
+
+EmpID
+Age
+AgeGroup
+Attrition
+BusinessTravel
+DailyRate
+Department
+DistanceFromHome
+Education
+EducationField
+EmployeeCount
+EmployeeNumber
+EnvironmentSatisfaction
+Gender
+HourlyRate
+JobInvolvement
+JobLevel
+JobRole
+JobSatisfaction
+MaritalStatus
+MonthlyIncome
+SalarySlab
+MonthlyRate
+NumCompaniesWorked
+Over18
+OverTime
+PercentSalaryHike
+PerformanceRating
+RelationshipSatisfaction
+StandardHours
+StockOptionLevel
+TotalWorkingYears
+TrainingTimesLastYear
+WorkLifeBalance
+YearsAtCompany
+YearsInCurrentRole
+YearsSinceLastPromotion
+YearsWithCurrManager
+
+
+
+KPI for my analysis:
+
+1. Number of Employees
+2. Number of Atttrition employee
+3. Attrition percentage
+4. average age of attrition employees 
+5. Average duration of particular employee in the company.
+6. Age group vs Employees
+7. Department vs Employees
+8. Eductaion level vs Employees 
+9. Employee satisfaction vs Employees (overall)
+10. Gender vs Employee 
+11. Job role vs employee
+12. salary slab vs employee
+13. Year at company vs employee
