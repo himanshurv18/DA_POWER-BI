@@ -1,0 +1,21 @@
+import pandas as pd
+
+# Read your CSV file
+file_path = 'C:/Users/HIMANSHU/Desktop/Data Analyst Bootcamp/Assignments/PROJECT PORTFOLIO/MOVIES+OTT+IMDB/archive/Netflix.csv'
+df = pd.read_csv(file_path)
+
+# Create an empty list to store the split countries with correct index
+split_countries = []
+
+# Iterate through each row and split countries into separate rows
+for index, row in df.iterrows():
+    countries = row['country'].split(',')
+    for country in countries:
+        split_countries.append({'Index': index + 1, 'Country': country.strip()})
+
+# Create a DataFrame from the list of split countries
+indexed_split_countries = pd.DataFrame(split_countries)
+
+# Save this new DataFrame to a new CSV file
+new_file_path = 'C:/Users/HIMANSHU/Desktop/Data Analyst Bootcamp/Assignments/PROJECT PORTFOLIO/MOVIES+OTT+IMDB/archive/Split_Countries_with_Index.csv'
+indexed_split_countries.to_csv(new_file_path, index=False)

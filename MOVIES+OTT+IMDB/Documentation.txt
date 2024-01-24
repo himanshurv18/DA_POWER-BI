@@ -1,0 +1,101 @@
+
+StreamWatch: Understanding Movie & OTT Dynamics
+
+Creation of Dash bord + processing and cleaning of Data.
+
+1. I started with builiding my home page.
+   Done with the gif part and put two buttons navigating to 2 other pages - Movies, OTT.
+
+2. Then moved to movies part created 3 button navingation to 3 other pages - overview,         Hollywood and Bollywood. Similary for OTT page created navigation button to different ott platforms page.
+
+3. Now lets come to Hotstar page and see what we can do in this page
+what we have done is :
+	a. we created a gif by removing the background of gif. set up that as my title icon.
+	b. create a  navbar and modified it accordingly. Just added a line below the current 	page and that's it.
+	c. added a year slicer, genre and type slcier.
+	d. Added a guage in the middle of the dashboard represneting the total no fo movies 	and Tv shows.
+	e. added kpi's based on no of movies, tv shows, genres, and type.
+	f. Added a bar chart representing the genres by shows in legend (movies, tv shows).
+	g. Added a movies and Tv shows donut chart.
+	h. added a clustred bar chart respresnting rating of Shows by movies and tv.
+	i. also added a total no of shows released by year column chart.
+
+
+Conclusion.
+	1. number of movies are more as compared to tv shows.
+	2. More number of content whether its movies or tv shows came after 2000.
+	3. Majority of movies is U/A 13+ and A rated being the least.
+	4. Drama, comedy, Romance, Action stands as top genres.
+
+
+4. Netflix
+Here we had the need to clean and process the accordingly so that we can reprsent things in better way on the visual.
+First the need was to clean the data. In that we remove the duplicate records across the rows.
+Then using python converted my genre columns data which was initally in binary format into a single column holding the data for genre.
+After that created a unique index column in the excel file. This is created as we have data for multiple columns in , sepreated format so we had to create a new excel file which holds the , seprated values in unique rows and for linking those tables to my main excel file we need some matching column and for that index column is used.
+After done with that we created 4 diffrent files holding the data for Genre, director, cast, and country using python and pandas library. Modelled all four with the main table using the index column (many to one relationship).
+Then we loded the files in power bi and started with the visualization part.
+Created KPI for Genre, director, cast, and country. 
+Some of visuals created are country map, Yearly realses by movie and Tv shows, ratings and Guague representing count of Movies and Tv shows.
+Also added slicer by Rating type, show type, genre type and year realse.
+
+
+Conclusion:
+1. Netfilx has reach in over 110 countries worldwide.
+2. Movies are main show type for netflix.
+3. Genre is categroized in 42 different categories.
+4. TV-MA has the highest rating followed by TV-14.
+5. Majority of the releases came after 2010.
+
+
+5. Amazon
+
+Created navbar and logo same as previous pages.
+Then my genre, country, and director column were having comma seprated values so I converted these 3 columns into new excel sheet with having showid as my common column in all three excel files so that they are realted with the main excel file.
+Then we created sclier for year. setuped kpi as Total titles, total genres, Total Directors, Total Country. 
+Created map for countries, dount chart for count of movies and shows, Area chart represnting total shows by year, ribbon chart represnting genres by total shows, Stacked bar chart represnting ratings by total shows.
+
+conclusion:
+Amzon has a reach in 46 diffrent countries.
+In total of 31 genres are categorized.
+Majority of content 80% is movies and remaining 20% are Tv shows.
+All format content spiked in 2000-2020 period.
+13+ stands as the top rated show.
+
+
+
+6. Apple Tv
+Created navbar and logo same as previous pages.
+Converted genre column into unique column having unique genre.
+Defined Slicer, kpi's by Total genre, Average Runtime. 
+Created diffrent charts of Rating by total shows, Runtime of different shows, Relases in different year.
+
+
+Conclusion:
+Apple tv shows have the average runtime of 51.11 min.
+Most shows or movies are relased after year 2019
+
+
+7. Overview - (Bollywood + Hollywood)
+Created navbar and logo same as previous pages.
+similar to previous page created new excel files for genre and language as they have comma sepreated values in my excel columns.
+Created various visuals such as movies by language, Revenue by score, Budget by no of movies,
+revenue by movies score.
+
+8. Hollywood
+Nabar and logo setuped as previous page.
+Create a new excel file to get unique genre, country, and language.
+created visuals of revenue by year, revenue and budget by genre, country filled map.
+Created slicers for genre, movie name, and language.
+
+conclusion:
+
+From 2000 onwards revenue has spiked before that it was used to flat close to same for every year.
+Drama and comedy stands as top revenue genrating genre.
+Average imbd for hollywood movies is 63.50
+
+
+9. Bollywood.
+Set up this same as hollywood dashbord.
+
+
