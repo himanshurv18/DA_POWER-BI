@@ -1,0 +1,101 @@
+Project Title - Sleep, Health, and Lifestyle
+
+Overview.
+
+This dataset, containing 373 rows and 13 columns, encompasses a broad spectrum of variables associated with sleep and daily routines. It provides information on aspects like gender, age, profession, duration of sleep, sleep quality, level of physical activity, stress levels, BMI classification, blood pressure, heart rate, daily step count, and the existence or non-existence of sleep disorders.
+
+What we have::->
+
+The columns are as follows:
+
+Person ID: A unique identifier for each participant.
+Gender: The participant's gender (Male/Female).
+Age: The participant's age in years.
+Occupation: The job or career of the participant.
+Sleep Duration (hours): The daily sleep duration of the participant in hours.
+Quality of Sleep (scale: 1-10): A subjective assessment of sleep quality on a scale from 1 to 10.
+Physical Activity Level (minutes/day): The daily duration of physical activity for the participant, measured in minutes.
+Stress Level (scale: 1-10): A subjective assessment of the participant's stress level on a scale from 1 to 10.
+BMI Category: The participant's BMI classification (e.g., Underweight, Normal, Overweight).
+Blood Pressure (systolic/diastolic): The participant's blood pressure, represented as systolic pressure over diastolic pressure.
+Heart Rate (bpm): The participant's resting heart rate, measured in beats per minute.
+Daily Steps: The number of steps the participant takes each day.
+Sleep Disorder: The presence or absence of a sleep disorder in the participant (None, Insomnia, Sleep Apnea).
+
+
+
+-- Defining KPI
+
+For this project we have defined 5 KPI's
+- Average Sleep Duration
+- Overall Sleep Quality
+- Percentage of Participants with Sleep Disorders.
+- Average Physical activity level in Minutes
+- Average Stress level
+
+
+Average Sleep Duration:
+
+Summary: This KPI represents the mean duration of sleep across all participants in the dataset. It provides an overall view of the average amount of sleep individuals are getting, serving as a key metric for understanding sleep patterns within the studied population.
+
+Overall Sleep Quality:
+
+Summary: The Overall Sleep Quality KPI is a measure derived from subjective assessments on a scale from 1 to 10. It serves as an indicator of the perceived sleep quality among participants. A higher value suggests better sleep quality, while a lower value may indicate sleep-related concerns.
+
+Percentage of Participants with Sleep Disorders:
+
+Summary: This KPI calculates the percentage of participants who reported having sleep disorders. It highlights the prevalence of sleep-related issues within the studied population, providing insights into the occurrence and distribution of sleep disorders among participants.
+
+Average Physical Activity Level in Minutes:
+
+Summary: Representing the mean duration of daily physical activity, this KPI quantifies the average amount of time participants spend engaged in physical activities. It offers insights into the active lifestyle of the studied population and contributes to understanding the relationship between physical activity and health.
+
+Average Stress Level:
+
+Summary: The Average Stress Level KPI measures the mean stress level reported by participants. It serves as a crucial indicator for assessing the overall stress levels within the population, offering insights into potential correlations between stress and other health-related factors.
+
+
+--- KPI findings
+
+- 7 hours is the average sleep duration 
+- Overall 41% of the participants is suffering from sleep disorders.
+- avergae stress level is 5
+- Specifically for the male this number goes to 6.
+
+
+Questions analyzed:
+
+1. Is there any relation between physical activity level and Quality of Sleep?
+- For this we used scatter chart displaying the realtion between physical activity level and Quality of Sleep. We concluded that there is strong relation between physical activity level and Quality of Sleep as the high phyiscal activity people have high quality of sleep.
+
+2. What is the relation between Strees level and Quality of sleep?
+- For stress level by Quality of sleep we used Clustered bar chart and it illustrates that people with lower quality of sleep are those who have higher stress level.
+
+3. Is quality of sleep related to any sleep disorder?
+- yes we found that people with low quality of sleep tends to have sleep disorders like Insomnia and sleep Apnea.
+
+
+4. Can I see any relation of Avergae sleep Duration + Average stress level by Gender?
+- We concluded that females have higher sleep duration resulting in low average stress level while on the other hand males have lower average sleep duration resulting into high stress level.
+
+5. Is there any relationship between aveage stress level in age groups?
+- yes we found younger generation under 30 have the highest level of stress while older ones have the least.
+
+
+
+Additional things done.
+
+- Added slicer for Gender and Age group
+- button navigation to switch between pages in the dashboard.
+
+
+-- Conclusion
+
+The dataset reveals an average sleep duration of 7 hours, with 41% reporting sleep disorders. Stress levels average at 5, slightly higher in males. Strong correlation exists between physical activity and sleep quality. Individuals with lower sleep quality report higher stress levels and are more prone to sleep disorders. To address this, promote healthy sleep habits, implement stress programs (especially for males), encourage physical activity, conduct sleep disorder screenings, tailor interventions by gender, and recognize age-specific stress management needs for the younger population. These strategies aim to enhance overall well-being by targeting sleep health and stress management.
+
+ 
+
+
+
+
+
